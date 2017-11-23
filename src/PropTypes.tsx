@@ -6,6 +6,7 @@ interface IPropTypes {
   autoClose?: boolean;
   onOpen?: () => void;
   onClose?: () => void;
+  scroll?: () => void;
   disabled?: boolean;
   style?: any;
   /* web only */
